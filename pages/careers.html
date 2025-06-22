@@ -1,0 +1,186 @@
+<!-- File: pages/careers.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Careers - SoftTech</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <link href="../assets/css/style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">SoftTech</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Careers</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="py-5 bg-primary text-white text-center" style="margin-top: 56px;">
+    <div class="container">
+      <h1 class="display-5">Join Our Team</h1>
+      <p class="lead">Shape the future of technology with us</p>
+    </div>
+  </header>
+
+  <!-- Culture Section -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Culture</h2>
+      <p class="text-center mb-4">At SoftTech, we foster innovation, creativity, and collaboration. We believe in empowering our team to achieve more, grow faster, and build meaningful solutions that impact millions.</p>
+      <div class="row text-center">
+        <div class="col-md-4 mb-3">
+          <i class="fa fa-heart fa-2x text-primary mb-2"></i>
+          <h6>Inclusive Environment</h6>
+        </div>
+        <div class="col-md-4 mb-3">
+          <i class="fa fa-rocket fa-2x text-primary mb-2"></i>
+          <h6>Innovation Driven</h6>
+        </div>
+        <div class="col-md-4 mb-3">
+          <i class="fa fa-users fa-2x text-primary mb-2"></i>
+          <h6>Team Collaboration</h6>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Open Positions -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Open Positions</h2>
+      <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action">
+          <h5 class="mb-1">Frontend Developer</h5>
+          <p class="mb-1">Experience with React, Bootstrap, and responsive design.</p>
+          <small class="text-muted">Location: Remote | Type: Full-time</small>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <h5 class="mb-1">Backend Developer</h5>
+          <p class="mb-1">Node.js / Laravel developers with strong database knowledge.</p>
+          <small class="text-muted">Location: On-site | Type: Full-time</small>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <h5 class="mb-1">UI/UX Designer</h5>
+          <p class="mb-1">Creative mind with Figma, Adobe XD and interaction design skills.</p>
+          <small class="text-muted">Location: Remote | Type: Part-time</small>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Apply Form -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Apply Now</h2>
+      <form class="mx-auto" style="max-width: 600px;">
+        <div class="mb-3">
+          <label for="name" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your name" />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="your@email.com" />
+        </div>
+        <div class="mb-3">
+          <label for="position" class="form-label">Position</label>
+          <select class="form-select" id="position">
+            <option selected disabled>Select a position</option>
+            <option>Frontend Developer</option>
+            <option>Backend Developer</option>
+            <option>UI/UX Designer</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Cover Letter / Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Why you'd be a great fit..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Submit Application</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <!-- Footer -->
+<!-- Updated Footer with Theme Toggle -->
+<footer class="bg-dark text-white py-5">
+  <div class="container">
+    <div class="row text-center text-md-start">
+      <div class="col-md-6 mb-4">
+        <h5>About SoftTech</h5>
+        <p>SoftTech Solutions is a leading software company delivering modern and scalable digital solutions.</p>
+        <p>We specialize in transforming ideas into reality through technology, innovation, and passion.</p>
+        <div class="mt-3">
+          <a href="https://www.linkedin.com/in/danial-shakeel/" target="_blank" class="text-white me-3">
+            <i class="fab fa-facebook fa-lg"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/danial-shakeel/" target="_blank" class="text-white me-3">
+            <i class="fab fa-twitter fa-lg"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/danial-shakeel/" target="_blank" class="text-white me-3">
+            <i class="fab fa-linkedin fa-lg"></i>
+          </a>
+        </div>
+        <button class="btn btn-outline-light btn-sm mt-3" id="themeToggle">Toggle Theme</button>
+      </div>
+      <div class="col-md-6 mb-4">
+        <h5>Services</h5>
+        <ul class="list-unstyled">
+          <li><a href="PAGES/services.html" class="text-white text-decoration-none">Web Design</a></li>
+          <li><a href="PAGES/services.html" class="text-white text-decoration-none">Mobile App Development</a></li>
+          <li><a href="PAGES/services.html" class="text-white text-decoration-none">Cloud Developments</a></li>
+          <li><a href="PAGES/services.html" class="text-white text-decoration-none">AI Models</a></li>
+          <li><a href="pages/services.html" class="text-white text-decoration-none">Cybersecurity</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="text-center pt-3 border-top border-light">
+      <p class="mb-0">&copy; 2025 SoftTech Solutions. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Theme Toggle Script -->
+<script>
+  // Apply saved theme before page renders
+  if (localStorage.getItem("theme") === "dark") {
+    document.documentElement.classList.add("dark-theme");
+  }
+
+  // Toggle theme on click
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggleBtn = document.getElementById("themeToggle");
+    if (toggleBtn) {
+      toggleBtn.addEventListener("click", () => {
+        document.documentElement.classList.toggle("dark-theme");
+        const isDark = document.documentElement.classList.contains("dark-theme");
+        localStorage.setItem("theme", isDark ? "dark" : "light");
+      });
+    }
+  });
+</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

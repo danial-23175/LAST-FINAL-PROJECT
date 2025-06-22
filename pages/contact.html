@@ -1,0 +1,143 @@
+<!-- File: pages/contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - SoftTech</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <link href="../assets/css/style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">SoftTech</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="careers.html">Careers</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="py-5 bg-primary text-white text-center" style="margin-top: 56px;">
+    <div class="container">
+      <h1 class="display-5">Contact Us</h1>
+      <p class="lead">Let’s connect and discuss how we can help you</p>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-5">
+        <!-- Contact Form -->
+        <div class="col-md-6">
+          <h4>Send a Message</h4>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" id="name" class="form-control" placeholder="Enter your name" />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" id="email" class="form-control" placeholder="Enter your email" />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" class="form-control" rows="4" placeholder="Your message here..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+          </form>
+        </div>
+
+        <!-- Google Map -->
+        <div class="col-md-6">
+          <h4>Visit Us</h4>
+          <div class="ratio ratio-4x3 rounded shadow-sm">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.6774744175547!2d-79.38393418484212!3d43.65322577912195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d01c07a2b5%3A0x4e998edfdd30cc97!2sCN%20Tower!5e0!3m2!1sen!2s!4v1618279012345" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Footer -->
+  <!-- Footer -->
+<!-- Updated Footer with Theme Toggle -->
+<footer class="bg-dark text-white py-5">
+  <div class="container">
+    <div class="row text-center text-md-start">
+      <div class="col-md-6 mb-4">
+        <h5>About SoftTech</h5>
+        <p>SoftTech Solutions is a leading software company delivering modern and scalable digital solutions.</p>
+        <p>We specialize in transforming ideas into reality through technology, innovation, and passion.</p>
+        <div class="mt-3">
+          <a href="https://www.linkedin.com/in/danial-shakeel/" target="_blank" class="text-white me-3">
+            <i class="fab fa-facebook fa-lg"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/danial-shakeel/" target="_blank" class="text-white me-3">
+            <i class="fab fa-twitter fa-lg"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/danial-shakeel/" target="_blank" class="text-white me-3">
+            <i class="fab fa-linkedin fa-lg"></i>
+          </a>
+        </div>
+        <button class="btn btn-outline-light btn-sm mt-3" id="themeToggle">Toggle Theme</button>
+      </div>
+      <div class="col-md-6 mb-4">
+        <h5>Services</h5>
+        <ul class="list-unstyled">
+          <li><a href="PAGES/services.html" class="text-white text-decoration-none">Web Design</a></li>
+          <li><a href="PAGES/services.html" class="text-white text-decoration-none">Mobile App Development</a></li>
+          <li><a href="PAGES/services.html" class="text-white text-decoration-none">Cloud Developments</a></li>
+          <li><a href="PAGES/services.html" class="text-white text-decoration-none">AI Models</a></li>
+          <li><a href="pages/services.html" class="text-white text-decoration-none">Cybersecurity</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="text-center pt-3 border-top border-light">
+      <p class="mb-0">&copy; 2025 SoftTech Solutions. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Theme Toggle Script -->
+<script>
+  // Apply saved theme before page renders
+  if (localStorage.getItem("theme") === "dark") {
+    document.documentElement.classList.add("dark-theme");
+  }
+
+  // Toggle theme on click
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggleBtn = document.getElementById("themeToggle");
+    if (toggleBtn) {
+      toggleBtn.addEventListener("click", () => {
+        document.documentElement.classList.toggle("dark-theme");
+        const isDark = document.documentElement.classList.contains("dark-theme");
+        localStorage.setItem("theme", isDark ? "dark" : "light");
+      });
+    }
+  });
+</script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
